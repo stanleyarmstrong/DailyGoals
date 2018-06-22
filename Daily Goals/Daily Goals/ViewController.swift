@@ -15,10 +15,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        mainButton.backgroundColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
-        mainButton.layer.cornerRadius = 5
-        mainButton.setTitleColor( UIColor.white, for: .normal)
-        mainButton.setTitle("New user", for: .normal)
     }
 
     override func didReceiveMemoryWarning() {
